@@ -1,0 +1,83 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+.menu {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #dddddd;
+}
+
+.item {
+    text-align: left;
+    padding: 3px;
+    width: 80px;
+}
+.label{
+    display: inline-block;
+}
+select {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+select option {
+    background: #ccc;
+    color: #fff;
+}
+
+select option:checked {
+    background: #333;
+    color: #fff;
+}
+
+.sortButton{
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 6px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form{
+    display: inline-block;
+}
+
+.login_button{
+
+    width: 67px;
+    height: 18px;
+    padding: 5px;
+    background: orange;
+}
+
+a{
+    text-decoration: none;
+}
